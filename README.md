@@ -9,6 +9,15 @@ PicoCPU modified by Tónis Lusmägi, TTÜ
 	Build the project in QuestaSim
 	Simulate picoCPU_TB.sv
 
+## Verification
+
+	Sub_A_Mem
+	RRC
+	NegA
+	Jmp_rel
+	SavePC
+	Load_Ind_A
+
 ## Bugfix
 
 	In file Controller.vhd, line 240, change "CommandToDPU <= "00000001100";" to 
