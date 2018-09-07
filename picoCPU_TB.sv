@@ -85,9 +85,6 @@ class Sub_A_Mem extends Instruction;
 	rand bit [7:0] operand1;
 	rand bit [7:0] operand2;
 	rand bit [7:0] address;
-	//bit [7:0] operand1 = 8'b00000001;
-	//bit [7:0] operand2 = 8'b00000011;
-	//bit [7:0] address = 8'b00000000;
 	/*---------------execute---------------*/
 	task test;
 	/*--seting up environment and asserting the result*/
